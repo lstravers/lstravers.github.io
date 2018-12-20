@@ -1,0 +1,104 @@
+body {
+  font-family: 'Roboto', sans-serif, arial, 'Slabo 27px', serif, "Benton Sans", "Helvetica Neue", helvetica;
+  margin: 5em;
+  font-size: 22px;
+  line-height: 1.5em ; 
+  background-image: url("https://cdn.glitch.com/98275561-882d-4111-9705-1b927de65bc4%2Fparchment.jpg?1540774566357");
+  display: inline-block;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: #0065CC;
+}
+
+.profilepic {
+  width: 50%;
+  border-style: solid gray;
+  box-shadow: 5px 5px 5px 5px #888888;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;    
+  }
+
+.title-container {
+text-align: center;
+font-weight: bold;
+margin-width: none;
+}
+
+.flexContainer {
+text-align: left;
+color: gray;
+display: inline-block;
+}
+
+.content {
+margin: none;
+font-size: 12pt;
+font-style: bold;
+text-align: center;
+align-content: center; 
+color: black;
+}
+
+/* NAVIGATION MENU */
+
+.navigationMenu {
+   padding: 1px 0;
+   min-width: 500px;
+   text-decoration-style: none; 
+   text-align: center;
+}
+
+#google-scholar {
+  width: 60px;
+}
+
+.flexCredentials {
+  display: flex;
+  text-align: center;
+}
+
+#acrpmember {
+  margin-right: 10px;
+}
+
+.header {
+text-align: center;
+}
+
+
+/* Footer */
+.footer {
+  text-align: right;
+}
+
+/* Projects */
+#page-head {
+ text-align: left;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 50px;
+  text-decoration-color: #888888;
+}
+
+
+
+/* screenshots */
+
+.flexItem {
+max-width: 90%;
+padding: 30px;
+border: none;
+flex-wrap: wrap;
+}
